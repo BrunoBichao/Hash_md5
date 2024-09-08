@@ -22,7 +22,7 @@ if hash_algo not in algoritmos_disponiveis:
 hash_result = gerar_hash(arquivotxt, hash_algo)
 msg1 = "Esse é o arquivo que você quer criptografar, correto?"
 arquivo_msg = f"({arquivotxt})"
-hash_msg1 = f"Aqui está o Hash {hash_algo} dele:"
+hash_msg1 = f"Aqui está o Hash {hash_algo} do arquivo:"
 hash_msg2 = f"{hash_result}"
 
 print(f"""
